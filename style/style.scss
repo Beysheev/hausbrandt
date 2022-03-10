@@ -1,0 +1,539 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+.header {
+  display: flex;
+
+  &__logo {
+    padding: 10px 0;
+  }
+  &__logo img {
+    width: 80px;
+    height: 65px;
+  }
+  &__nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  &__nav li {
+    list-style: none;
+  }
+  &__nav a {
+    color: #333;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  &__nav a:hover{
+    color: #762401;
+    text-decoration: none;
+    border-bottom: solid 2px #762401;
+    padding-bottom: 5px;
+  }
+  &__lang_link a{
+    color: #333;
+    margin-right: 20px;
+    text-transform: uppercase;
+  }
+  &__lang_link a:hover{
+    color: #762401;
+    border-bottom: solid 2px #762401;
+    padding-bottom: 5px;
+    text-decoration: none;
+  }
+  &__lang_link img{
+    width: 30px;
+    height: 30px;
+  }
+  &__right {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+  }
+  &__contacts {
+    display: flex;
+  }
+  &__contacts {
+    display: flex;
+  }
+  &__contacts a{
+    padding: 0 7px;
+  }
+  &__contacts a:last-child{
+    padding: 0 0;
+  }
+  &__contacts .next {
+    width: 20px;
+    height: 20px;
+  }
+  &__contacts img:hover{
+    transform: scale(1.3, 1.3);
+  }
+  &__contacts #faceb {
+    width: 10px;
+    height: 20px;
+  }
+}
+.banner {
+
+  &__container{
+    width: 1140px;
+    margin: 0 auto;
+  }
+  &__top {
+    display: flex;
+  }
+  &__right_top{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__brand{
+    color: #383030;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__brand h1{
+    font-size: 54px;
+    font-weight: 700;
+    padding-top: 50px;
+  }
+  &__order button{
+    color: #AB5A37;
+    background: none;
+    border: solid 1px #AB5A37;
+    padding: 5px 40px;
+    width: 310px;
+    height: 50px;
+  }
+  &__order button:hover{
+    color: #fff;
+    background: #AB5A37;
+  }
+  &__right {
+    padding-left: 10px;
+  }
+  &__right_bottom img{
+    padding-top: 30px;
+    width: 730px;
+    height: 300px;
+  }
+  &__modal-content {
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 80px;
+  }
+  &__window{
+    background: #f9f9f9;
+    width: 350px;
+    height: 410px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  &__window p{
+    border-bottom: solid 1px #B6BABF;
+    padding-bottom: 10px;
+  }
+  &__window label {
+    font-size: 14px;
+    display: block;
+  }
+  &__window input {
+    margin-top: 5px;
+  }
+  &__button{
+    color: #AB5A37;
+    background: none;
+    border: solid 1px #AB5A37;
+    padding: 5px 40px;
+  }
+}
+
+.about {
+  padding: 70px 0;
+
+  &__block{
+    display: flex;
+  }
+  &__second {
+    padding: 80px 0;
+  }
+  &__second_h2{
+    font-size: 24px;
+    padding-top: 30px;
+  }
+  &__second {
+    display: flex;
+  }
+  &__second_ol {
+    padding-top: 15px;
+  }
+  &__names{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__img{
+    width: 540px;
+    height: 100%;
+  }
+}
+
+.third{
+
+  &__menu h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  &__box {
+    text-align: center;
+    padding: 30px 0;
+  }
+  &__box img{
+    border: solid .5px #A0A0A0;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  &__box span{
+    color: #383030;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  &__box h2{
+    font-size: 14px;
+    padding: 15px 0 10px;
+  }
+  &__box p{
+    color: #A0A0A0;
+    font-size: 14px;
+  }
+}
+.fourth {
+
+  &__advantages{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+  }
+  &__advantages h2{
+    font-weight: 700;
+  }
+  &__mokko img{
+    width: 100%;
+    height: 100%;
+  }
+  &__list{
+    display: flex;
+    padding-top: 16px;
+  }
+  &__list_p{
+    padding: 7px 30px 0 0 ;
+    font-size: 16px;
+    display: flex;
+  }
+  &__list_p img{
+    width: 15px;
+    height: 12px;
+    margin: 5px 5px 0 0;
+  }
+  &__window span{
+    cursor: pointer;
+    float: right;
+  }
+  &__right {
+    padding-left: 10px;
+  }
+  &__right_bottom img{
+    padding-top: 30px;
+    width: 730px;
+    height: 300px;
+  }
+  &__modal-content {
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 80px;
+  }
+  &__window{
+    background: #f9f9f9;
+    width: 350px;
+    height: 410px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  &__window p{
+    font-size: 26px;
+    border-bottom: solid 1px #B6BABF;
+    padding-bottom: 10px;
+  }
+  &__window label {
+    font-size: 14px;
+    display: block;
+  }
+  &__window input {
+    margin-top: 5px;
+  }
+  &__order button{
+    color: #AB5A37;
+    background: none;
+    border: solid 1px #AB5A37;
+    padding: 5px 40px;
+    width: 260px;
+    height: 50px;
+  }
+  &__order button:hover{
+    color: #fff;
+    background: #AB5A37;
+  }
+}
+
+.fifth {
+  margin: 80px 0;
+
+  &__capsuls{
+    text-align: center;
+  }
+  &__capsuls h2{
+    font-weight: 700;
+    font-size: 36px;
+    padding-bottom: 40px;
+  }
+  &__box {
+    text-align: center;
+  }
+  &__box img{
+    width: 330px;
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  &__box span{
+    font-size: 18px;
+  }
+  &__box h3{
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 0 10px;
+  }
+  &__box p{
+    color: #A0A0A0;
+    font-size: 14px;
+    padding: 0 10px;
+  }
+}
+
+.sixth{
+
+  &__left{
+
+  }
+  &__left h4{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__left p{
+    color: #555;
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  &__photo img{
+    padding-top: 15px;
+    width: 540px;
+  }
+  &__photo_scrab img{
+    padding: 50px 0;
+    width: 540px;
+  }
+  &__left_text{
+    padding: 50px 0;
+  }
+  &__left_text h4{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  &__left_text p{
+    color: #555;
+    font-size: 16px;
+    padding-top: 5px;
+  }
+  &__title{
+    padding-top: 35px;
+  }
+  &__btn p{
+    color: #fff;
+    font-size: 18px;
+    background: #AB3737;
+    padding: 20px 100px 20px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  &__bttn p{
+    color: #fff;
+    font-size: 18px;
+    background: #0e6e0c;
+    padding: 20px 100px 20px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+  &__cups img{
+    width: 25px;
+    height: 25px;
+  }
+}
+.seventh{
+  padding: 40px 0;
+
+  &__box img{
+
+  }
+  &__menu h2{
+    font-weight: bold;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  &__price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+  }
+  &__price h4{
+    font-size: 16px;
+  }
+  &__price span{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  &__box p{
+    color: #A0A0A0;
+    font-size: 14px;
+  }
+}
+
+.eighth{
+
+  &__menu h2{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__list{
+    padding-top: 55px;
+  }
+  &__p{
+    padding-left: 25px;
+  }
+}
+
+.ninth{
+  background: linear-gradient(to left, transparent, rgba(118, 36, 1, 1)), url("../img/capuccino.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+
+  &__lastcall{
+    color: #fff;
+    margin: 100px 0 0 100px;
+  }
+  &__lastcall a {
+    color: #fff;
+    background: none;
+    padding: 15px 25px;
+    border: solid 1px #fff;
+  }
+  &__lastcall a:hover{
+    color: #AB3737;
+    background: #fff;
+    text-decoration: none;
+  }
+  &__phone{
+    color: #fff;
+    background: none;
+    padding: 15px 55px;
+    border: solid 1px #fff;
+  }
+  &__lastcall h4{
+    font-size: 36px;
+    font-weight: 700;
+  }
+  &__lastcall p{
+    font-size: 18px;
+    padding: 5px 0 15px;
+  }
+}
+.tenth {
+  background: #000;
+
+  &__pic{
+
+  }
+  &__pic img{
+    width: 200px;
+    height: 150px;
+    margin: 50px 0;
+  }
+  &__info{
+    text-align: center;
+    color: #fff;
+    padding: 45px 0 20px;
+  }
+  &__info h4{
+    padding-bottom: 30px;
+  }
+  &__info a{
+    color: #fff;
+  }
+  &__info a:hover{
+    color: #6c757d;
+    text-decoration: none;
+  }
+  &__info span{
+
+  }
+  &__social{
+    text-align: center;
+  }
+  &__social a{
+    padding: 0 10px;
+  }
+  &__social img:hover{
+    transform: scale(1.4, 1.4);
+  }
+  &__right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__links{
+    padding-top: 60px;
+  }
+  &__links a{
+    color: #fff;
+    text-transform: uppercase;
+  }
+  &__links a:hover{
+    color: #fff;
+    border-bottom: solid 1px #fff;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
+  &__vector{
+    padding-top: 25px;
+  }
+}
